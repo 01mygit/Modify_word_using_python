@@ -11,8 +11,7 @@ def process():
     for filename in filenames:
         print(filename)
         doc = w.Documents.Open(FileName=filename)
-
-        # # 文档最开始插入文字
+        # # 文档最开始插入文字,这里是插入文档的名字
         # insert = filename.split('.')[0] + '\n'
         # myRange = doc.Range(0, 0)
         # myRange.InsertBefore(insert)
